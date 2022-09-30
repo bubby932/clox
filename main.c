@@ -17,8 +17,6 @@ static void repl() {
             break;
         }
 
-        printf(line);
-
         interpret(line);
     }
 }

@@ -36,7 +36,7 @@ static InterpretResult run() {
         double b = pop();   \
         double a = pop();   \
         push(a op b);       \
-    } while(false)          \
+    } while(false)
 
     for (;;) {
 #ifdef DEBUG_TRACE_EXECUTION
